@@ -5,6 +5,6 @@ function isIterable (obj) {
 }
 
 module.exports = function (obj) {
-  console.log(isIterable(obj) ? fromJS(obj).toJS() : obj)
+  console.table(isIterable(obj) ? fromJS(obj).toJS() : obj)
   return obj
 }
