@@ -1,5 +1,5 @@
 {
-  "name": "logchain",
+  "name": "@chibicode/logchain",
   "version": "0.1.0",
   "description": "console.log(obj) which returns obj",
   "main": "index.js",
